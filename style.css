@@ -1,0 +1,222 @@
+h2, h4, p {
+    margin: 0px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.headtotal {
+    width: 1000px;
+    display: flex;
+    
+}
+header {
+    margin: 0px;
+    width: 100%;
+    padding: 10px 0px;
+    background: #000000;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+header .titulo {
+    font-size: 3em;
+    width: 20%;
+}
+header nav {
+    width:60%;
+}
+header nav ul {
+    display: flex;
+}
+header nav ul li {
+    list-style: none;
+    margin: 0px 10px ;
+    color: #BBBBBB;
+}
+header nav ul li a {
+    color: #DDDDDD;
+    text-decoration: none;
+}
+header .boton {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+header .boton button {
+    background-color: #17a2b8;
+    color: #FFFFFF;
+    border-radius: 5px;
+    height: 2em;
+}
+/***************MAIN*****************/
+main {
+    width: 1000px;
+    margin-top: 20px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+main section {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+main aside {
+    width: 40%;
+    height: 100%;
+    margin-left: 10px;
+}
+main section .card {
+    background: #17a2b8;
+    padding-top: 100px;
+    margin-right: 10px;
+}
+main section .card .perfil {
+    background-color: #FFFFFF;
+    height: 300px;
+    border: solid 2px #333333;
+    border-top: none;
+    padding-left: 30px;
+}
+main section .card .perfil .avatar {
+    width: 120px;
+    position: relative;
+    top: -60px;
+}
+main section .card .perfil .avatar img {
+    width: 120px;
+}
+main section .card .perfil .nombre {
+    font-size: 3em;
+    margin-top: -60px;
+}
+main section .card .perfil .ubicacion {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+main section .card .perfil .ubicacion img {
+    height: 20px;
+    margin-right: 5px;
+}
+main section .card .perfil .ubicacion h3 {
+    margin: 0px;
+}
+main section .card .perfil .cargo p {
+    margin: 16px 0px;
+}
+main section .card .perfil .editar {
+    display: flex;
+    flex-direction: row;
+}
+main section .card .perfil .editar img {
+    height: 20px;
+    margin-right: 5px;
+}
+main section .card .perfil .editar a {
+    text-transform: lowercase;
+    color: #2b78e4;
+}
+main section .educacion {
+    margin-top: 20px;
+    margin-right: 10px;
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 10px 30px;
+    
+}
+main section .edu_descr {
+    padding: 0px 0px;
+    border: #333333 solid 2px;
+    margin-right: 10px;
+}
+main section .edu_descr h2 {
+    color:#333333;
+    padding-top: 8px;
+    padding-left: 30px;
+}
+main section .edu_descr h4 {
+    color:#666666;
+    padding-left: 30px;
+}
+main section .edu_descr p {
+    color:#333333;
+    font-size: 1em;
+    padding-top: 4px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+/*ASIDE*/
+main aside {
+    display: flex;
+    flex-direction: column;
+}
+main aside section.connection {
+    width: 100%;
+    margin-bottom: 20px;
+}
+main aside section .titulo {
+    display: flex;
+    flex-direction: row;
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 10px 30px;
+}
+main aside section .titulo .numero {
+    background-color: #FFFFFF;
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 10px;
+}
+main aside section .titulo .numero.your {
+    width: 2em;
+    padding: 0 1em;
+}
+main aside section .titulo .numero span {
+    color:#000000;
+    line-height: 2em;
+    width: 2em;
+    
+}
+main aside section .titulo .texto {
+    line-height: 2em;
+}
+main aside .connection .detalle {
+    border: solid 2px #333333;
+    border-top: none;
+}
+main aside .connection .detalle img {
+    width: 32px;
+    padding: 0px 10px;
+}
+main aside .connection .detalle div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 10px;
+    padding: 10px;
+}
+main aside .connection .detalle span {
+    line-height: 32px;
+    width: 100%;
+    max-width: 80%;
+}
+main aside section.connection .viewmore {
+    border: #333333 solid 2px;
+    line-height: 3em;
+    border-top: none;
+    padding-left: 30px;
+    text-transform: capitalize;
+
+}
+
